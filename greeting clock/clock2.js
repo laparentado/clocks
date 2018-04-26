@@ -22,10 +22,10 @@ function myTime(){
   min = checkTime(min);
   sec = checkTime(sec);
 
-  time.innerHTML = hours +":"+ min +":"+ sec;
+  time.innerHTML = hours +"<br>"+ min +"<br>"+ sec;
 
   // background.style.backgroundColor = "#"+(hours)+(min)+(sec);
-  
+
   if(hours <=00 || hours <=04){
     image.style.backgroundImage = "url(moon.jpg)";
     greeting.innerHTML = "good night";
