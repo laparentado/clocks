@@ -1,0 +1,14 @@
+#background{
+  background-color: blue;
+}
+
+#time{
+  border:1px solid black;
+  font-family: monospace, serif;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+
+}
